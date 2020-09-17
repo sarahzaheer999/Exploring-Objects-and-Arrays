@@ -172,20 +172,21 @@ var people = [
 textAlign(CENTER);
 
 size= 10 
-  var x= height/4  
+  var x= height/10  
 for (var i = 0; i < people.length; i += 1) {
   fill(0);
   textSize(10);
 	
 
-  text("❤️", width/2, x-10);
+  text("❤️", width/5, x-5);
   textSize(size);
-  text(people[i].name, width/2, x-30);
+  text(people[i].name, width/2, x-10);
   fill(people[i].color);
-  text(people[i].food, width/2, x+30);
-  x=x+100
-  size=size+4
+  text(people[i].food, width/2, x+20);
+  x=x+80
+  size=size+8
 }
+
 
 ```
 
