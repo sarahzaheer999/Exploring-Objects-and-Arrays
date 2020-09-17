@@ -124,19 +124,20 @@ var people = [
 textAlign(CENTER);
 
 size= 10 
-  var x= height/4  
+  var x= height/15
 for (var i = 0; i < people.length; i += 1) {
   fill(0);
   textSize(10);
 	
 
-  text("❤️", width/2, x-10);
-  text(people[i].name, width/2, x-30);
+  text("❤️", width/3, x-5);
+  text(people[i].name, width/2, x-10);
   fill(people[i].color);
-  text(people[i].food, width/2, x+30);
+  text(people[i].food, width/2, x+10);
   x=x+100
  
 }
+
 ```
 ### Add a property to all objects for size; use it to change the font size of each person's words.
 ```
