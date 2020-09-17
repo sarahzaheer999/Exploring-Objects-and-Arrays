@@ -183,7 +183,7 @@ for (var i = 0; i < people.length; i += 1) {
   fill(people[i].color);
   text(people[i].food, width/2, x+30);
   x=x+100
-  size=size+5
+  size=size+4
 }
 
 
