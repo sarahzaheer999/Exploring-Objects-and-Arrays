@@ -18,14 +18,14 @@ var people = [
   
   {
     name: "Sarah",
-    food: "tofu",
-    color: "black"
+    food: "cake",
+    color: "pink"
   },
   
   {
     name: "Chloe",
-    food: "beans",
-    color: "yellow"
+    food: "rice",
+    color: "white"
   }
 
   
