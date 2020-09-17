@@ -25,7 +25,7 @@ var people = [
   {
     name: "Chloe",
     food: "rice",
-    color: "white"
+    color: "yellow"
   }
 
   
@@ -71,7 +71,7 @@ var people = [
   {
     name: "Chloe",
     food: "rice",
-    color: "white"
+    color: "yellow"
   }
 
   
@@ -114,7 +114,7 @@ var people = [
   {
     name: "Chloe",
     food: "rice",
-    color: "white"
+    color: "yellow"
   }
 
   
@@ -162,7 +162,7 @@ var people = [
   {
     name: "Chloe",
     food: "rice",
-    color: "white"
+    color: "yellow"
   }
 
   
