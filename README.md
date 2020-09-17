@@ -3,7 +3,7 @@ By Sarah Zaheer and Chloe Kim
 
 
 ### Add two more "people" object literals to the people array
-
+```
 var people = [
   {
     name: "J.D. Zamfirescu",
@@ -43,11 +43,11 @@ for (var i = 0; i < people.length; i += 1) {
   fill(people[i].color);
   text(people[i].food, width/2, height/2+30);
 }
-
+```
 ### Fix the overlapping text issue by using the index variable i in the body of the for loop to modify the y coordinate of the drawn text.
 
 #### One way of doing it 
-
+```
 var people = [
   {
     name: "J.D. Zamfirescu",
@@ -90,9 +90,9 @@ for (var i = 0; i < people.length; i += 1) {
   fill(people[i].color);
   text(people[i].food, width/2, height/2+30);
 }
-
+```
 #### Another way of doing it:-
-
+```
 var people = [
   {
     name: "J.D. Zamfirescu",
@@ -137,9 +137,9 @@ for (var i = 0; i < people.length; i += 1) {
   x=x+100
  
 }
-
+```
 ### Add a property to all objects for size; use it to change the font size of each person's words.
-
+```
 var people = [
   {
     name: "J.D. Zamfirescu",
@@ -186,7 +186,7 @@ for (var i = 0; i < people.length; i += 1) {
   size=size+4
 }
 
-
+```
 
 
 
