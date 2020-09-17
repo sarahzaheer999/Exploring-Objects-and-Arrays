@@ -1,5 +1,5 @@
 # Exploring-Objects-and-Arrays 
-Done in rudy.zamfi.net By Sarah Zaheer and Chloe Kim
+Done in rudy.zamfi.net; By Sarah Zaheer and Chloe Kim
 
 
 ### Add two more "people" object literals to the people array
