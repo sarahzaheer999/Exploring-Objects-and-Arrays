@@ -2,7 +2,7 @@
 By Sarah Zaheer and Chloe Kim
 
 
-### Add two more "people" object literals to the people array.
+### Add two more "people" object literals to the people array
 
 var people = [
   {
@@ -46,7 +46,7 @@ for (var i = 0; i < people.length; i += 1) {
 
 ### Fix the overlapping text issue by using the index variable i in the body of the for loop to modify the y coordinate of the drawn text.
 
-#### One way of doing it:-
+#### One way of doing it 
 
 var people = [
   {
