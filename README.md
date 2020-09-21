@@ -192,7 +192,6 @@ for (var i = 0; i < people.length; i += 1) {
 ### Optional Challenge: Define a mousePressed function that changes the heart emoji to a different color.
 
 ```
-
 var people = [
 {
     name: "J.D. Zamfirescu",
