@@ -18,13 +18,13 @@ var people = [
   
   {
     name: "Sarah",
-    food: "cake",
-    color: "pink"
+    food: "tofu",
+    color: "black"
   },
   
   {
     name: "Chloe",
-    food: "rice",
+    food: "beans",
     color: "yellow"
   }
 
@@ -107,13 +107,13 @@ var people = [
   
   {
     name: "Sarah",
-    food: "cake",
-    color: "pink"
+    food: "tofu",
+    color: "black"
   },
   
   {
     name: "Chloe",
-    food: "rice",
+    food: "beans",
     color: "yellow"
   }
 
@@ -124,17 +124,17 @@ var people = [
 textAlign(CENTER);
 
 size= 10 
-  var x= height/15
+  var y= height/5 
 for (var i = 0; i < people.length; i += 1) {
   fill(0);
   textSize(10);
 	
 
-  text("❤️", width/3, x-5);
-  text(people[i].name, width/2, x-10);
+  text("❤️", width/2, y);
+  text(people[i].name, width/2, y-20);
   fill(people[i].color);
-  text(people[i].food, width/2, x+10);
-  x=x+100
+  text(people[i].food, width/2, y+20);
+  y=y+100
  
 }
 
@@ -155,13 +155,13 @@ var people = [
   
   {
     name: "Sarah",
-    food: "cake",
-    color: "pink"
+    food: "tofu",
+    color: "black"
   },
   
   {
     name: "Chloe",
-    food: "rice",
+    food: "beans",
     color: "yellow"
   }
 
@@ -172,21 +172,19 @@ var people = [
 textAlign(CENTER);
 
 size= 10 
-  var x= height/10  
+  var y= height/5 
 for (var i = 0; i < people.length; i += 1) {
   fill(0);
-  textSize(10);
+  textSize(size);
 	
 
-  text("❤️", width/5, x-5);
-  textSize(size);
-  text(people[i].name, width/2, x-10);
+  text("❤️", width/2, y);
+  text(people[i].name, width/2, y-20);
   fill(people[i].color);
-  text(people[i].food, width/2, x+20);
-  x=x+80
-  size=size+8
+  text(people[i].food, width/2, y+20);
+  y=y+100
+  size=size+3
 }
-
 
 ```
 ### Optional Challenge: Define a mousePressed function that changes the heart emoji to a different color.
